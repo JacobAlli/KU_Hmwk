@@ -70,11 +70,20 @@ footer {
     color: #666;
 }
 
+.main-nav a.active {
+	color: #4aaaa5;
+}
+
 .main-nav li {
     margin-top: 50px;
     display: inline-block;
     border-right: 1px solid #999;
     padding: 3px 15px;
+}
+
+.main-nav li:hover {
+	color: #4aaaa5;
+	border-bottom: 2px solid #4aaaa5;
 }
 
 .main-nav li:nth-child(3) {
@@ -93,7 +102,6 @@ footer {
     height: 200px;
     width: auto;
     margin: 25px;
-    float: left;
     display: inline;
 }
 
@@ -121,7 +129,7 @@ footer {
 
 .side-box {
     float: right;
-    height: 40vh;
+    height: 200px;
     width: 30%;
     background: #fff;
     border: 1px solid #ccc;
@@ -152,3 +160,114 @@ footer {
 .icon3 {
     color: #FFA43A;
 }
+
+.contact-box {
+	margin: 25px;
+}
+
+.contact-box label {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.contact-box input {
+	width: 100%;
+	height: 40px;
+}
+
+.contact-box textarea {
+	width: 100%;
+	height: 60px;
+	height: 200px;
+}
+
+.contact-box button {
+	border: none;
+	color: #fff;
+	background: #4aaaa5;
+	width: 150px;
+	height: 55px;
+	margin-top: 10px;
+}
+
+.port-box {
+    float: left;
+    height: 850px;
+    width: 65%;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+.port-box img {
+    height: 200px;
+    width: auto;
+    margin: 25px;
+    display: inline;
+}
+
+.port-box h2 {
+    font-size: 200%;
+    color: #4aaaa5;
+    border-bottom: 5px solid #ccc;
+    padding:20px 0;
+    margin: 0 25px;
+}
+
+.row {
+	width: 100%;
+}
+
+.col {
+	display: inline-block;
+	width: 40%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; 
+	height: 200px;
+	margin: 25px;
+	border: 1px solid #ccc;
+}
+
+.img1 {
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../images/photo-1.png');
+}
+
+.img2 {
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../images/photo-2.png');
+}
+
+.img3 {
+	background-image: url('../images/photo-3.png');
+}
+
+.img4 {
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../images/photo-4.png');
+}
+
+.img5 {
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../images/photo-5.png');
+}
+
+.col h2 {
+	margin:0 auto;
+	width: 60%;
+	padding: 10px 0;
+	background: transparent;
+	border-bottom: transparent;
+	text-align: center;
+	color: #fff;
+	padding-top: 120px;
+	
+}
+
+.col.img5 h2, .col.img4 h2 {
+	padding-top: 88px;
+}
+
+.col h2:hover {
+	border-bottom: 5px solid #4aaaa5;
+}
+
+
+

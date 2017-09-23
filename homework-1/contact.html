@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Jacob Allison | About Me</title>
+    <title>Jacob Allison | Contact</title>
 </head>
 <body>
     <header class="main-header clearfix">
@@ -18,7 +18,7 @@
                 <ul>
                     <li><a href="index.html">About</a></li>
                     <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a class="active" href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -27,16 +27,21 @@
     <div class="container clearfix">
         <section class="main-box">
 
-            <h2 class="about-me-heading">About Me</h2>
-            <img src="assets/images/profile.png">
-            <div class="about-me-info clearfix">
-                <p>Hi. My name is Jacob Allison. I'm currently learning Full Stack Web Development at the University of Kansas. I am a former graphic design student, and I hope to use my knowledge of design to create visually stunning, functional websites and applications throughout my journey in Web Development.
-                </p>
-            </div>
-            <div class="about-me-info2">
-                <p>I currently have basic experience using terminal commands, git, github, HTML, and CSS. I am working long hours every day to expand upon these skills, and hope to build a marketable skillset in the fast-paced industry of modern technology.
-                </p>
-            </div>
+            <h2 class="about-me-heading">Contact Me</h2>
+            <form action="#">
+				<div class="contact-box">
+					<label>Name</label>
+					<input type="text" placeholder="John Doe"></input>
+					
+					<label>Email</label>
+					<input type="email" placeholder="example@example.com"></input>
+					
+					<label>Message</label>
+					<textarea placeholder="Enter message here..."></textarea>
+					
+					<button type="submit">Submit</button>
+					<div>
+			</form>
 
 
         </section>
